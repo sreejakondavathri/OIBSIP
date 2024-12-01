@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background:rgb(250, 230, 244);
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(128, 0, 128, 0.759);
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-left: auto; 
+}
+.nav-links .btn {
+    color: rgba(0, 0, 0, 0.69);
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.nav-links .btn:hover {
+    background: white;
+    color: #007BFF;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+#loginForm button[type="submit"],
+#registerForm button[type="submit"] {
+    background-color: green; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+}
+
+#loginForm button[type="submit"]:hover,
+#registerForm button[type="submit"]:hover {
+    background-color: darkgreen; 
+}
